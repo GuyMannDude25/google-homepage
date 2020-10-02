@@ -145,7 +145,7 @@ footer ul a:hover {
 }
 
 
-/* MEDIA QUERIES */
+/* Media Queries < 400px */
 
 @media screen and (max-width: 400px) {
     li.nav-links a {
@@ -177,6 +177,9 @@ footer ul a:hover {
         text-align: center;
     }
 }
+
+
+/* Media Queries > 400px */
 
 @media screen and (max-width: 565px) {
     li.nav-links a {
