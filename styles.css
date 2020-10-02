@@ -1,6 +1,7 @@
 /* MAIN STYLES */
 
 body {
+    background: black;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -72,25 +73,37 @@ li.nav-links a:hover {
 }
 
 #form-search {
-    width: 450px;
-    line-height: 32px;
-    padding: 20px 10px;
+    border-radius: 30px;
+    min-width: 30em;
+    max-width: 50em;
+    height: 3em;
+    border: none;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    border-color: silver;
+    padding-left: 2em;
+    padding-right: 2em;
+    outline: none;
+    box-shadow: 0px 0px 1px 1px #bebebe;
 }
 
 .form #form-search {
     padding: 0 8px;
 }
 
-
-/*#form-search:hover {
+#form-search:hover {
     border-color: #e4e4e4;
     padding-top: 0;
-  }*/
+}
 
 .buttons {
+    padding: 10px 20px;
     text-align: center;
-    padding-top: 30px;
     margin-bottom: 300px;
+    color: #5f6368;
+    border-radius: 5px;
 }
 
 
@@ -173,8 +186,8 @@ footer ul a:hover {
         width: 80%;
     }
     footer {
-        /*    bottom: 0;
-     postion: absolute; */
+        bottom: 0;
+        postion: absolute;
         position: absolute;
         bottom: 0;
         width: 100%;
